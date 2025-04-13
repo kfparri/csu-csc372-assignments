@@ -8,11 +8,6 @@ import javafx.scene.control.MenuItem;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 
-/**
- * MenuView - The UI for the bank application
- * @author	Kyle Parrish
- * @version	1.0.0
- */
 public class MenuView {
 	BorderPane layout;
 	private MenuBar menuBar;

@@ -11,12 +11,6 @@ import javax.swing.JOptionPane;
 import csc372.module03.model.MenuSettings;
 import csc372.module03.view.MenuView;
 
-/**
- * MenuController - This class manages the logic for the menu application including the 
- * 	events.
- * @author	Kyle Parrish
- * @version	1.0.0
- */
 public class MenuController {
 	private final Random random = new Random();
 	private final MenuView view;
