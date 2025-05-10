@@ -22,7 +22,7 @@ public class CompareByRollNumber implements Comparator<Student> {
 		//  the first object and return either a positive or negative
 		//  number (or zero)
 		
-		int compare = Integer.compare(a.getRollNumber(), b.getRollNumber()); 
+		int compare = a.getRollNumber() - b.getRollNumber();
 		
 		if (compare < 0) {
 			return -1;
